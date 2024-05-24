@@ -1,0 +1,55 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} 
+
+body{
+  margin: 0;
+}
+
+.hero-section{
+  font-family: "Open Sans", sans-serif;
+  background-image: url(img/faded-office.png);
+  background-size: cover;
+  /* padding: 20px 0 50px 0; */
+  color: #020202;
+  /* height: 700px; */
+}
+
+.wrapper{
+  width: 300px;
+  padding: 10px 0 300px 60px;
+}
+
+p{
+  font-size: 22px;
+  margin: 0px 0 30px 0;
+}
+
+#underline{
+  border-bottom: 4px solid #0ea5e9;
+}
+
+.chat-button{
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: #0ea5e9;
+  border: none;
+  font-weight: bold;
+  padding: 15px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.title{
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
